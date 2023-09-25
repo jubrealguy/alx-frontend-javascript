@@ -1,4 +1,5 @@
-export default function getNeighborhoodsList () {
+/* eslint-disable require-jsdoc */
+export default function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
   const self = this;
