@@ -1,6 +1,7 @@
+/* eslint-disable require-jsdoc */
 export default function appendToEachArrayValue(array, appendString) {
-  const newArr  = [];
-  for (let item of array) {
+  const newArr = [];
+  for (const item of array) {
     newArr.push(appendString + item);
   }
 
