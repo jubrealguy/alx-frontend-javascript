@@ -10,5 +10,6 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
             returnStatus.push({ status: val.status, value: val.value || val.reason });
         }
         return returnStatus;
-    });
+    })
+    .catch((error) => {return Error()})
 };
