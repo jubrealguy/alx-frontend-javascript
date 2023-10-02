@@ -4,7 +4,7 @@ export default function getListStudents() {
   const loc = ['San Francisco', 'Columbia', 'San Francisco'];
   const arr = [];
   for (const i of ind) {
-    arr.push({ id: ind[i], firstName: fname[i], location: loc[i] });
+    arr.push({ id: i, firstName: fname[ind.indexOf(i)], location: loc[ind.indexOf(i)] });
   }
   return arr;
 }
